@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Light_gray: hsl(212, 45%, 89%);
+    --Grayish_blue: hsl(220, 15%, 55%);
+    --Dark_blue: hsl(218, 44%, 22%);
+}
+
+body {
+    font-family:'Outfit', sans-serif;
+    background-color: var(--Light_gray);
+}
+
+.main__container {
+    width: 320px;
+    height: 500px;
+    margin: auto;
+    margin-top: 85px;
+    border-radius: 5%;
+    background-color: var(--White);
+}
+
+.main__class__img {
+    width: 285px;
+    height: 285px;
+    border-radius: 3%;
+    margin: 16px;
+}
+
+.QR__title {
+    font-size: 23px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.QR__instructions {
+    color: var(--Grayish_blue);
+    text-align: center;
+    margin-top: 15px;
+    font-size: 15px;
+    font-weight: 300;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.attribution {
+    font-size: 15px; text-align: center;
+    padding-top: 150px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
