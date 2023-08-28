@@ -43,6 +43,14 @@ body{
     border-top-right-radius: 3%;
 }
 
+.imgclass2-container{
+    display: none;
+}
+
+.thirdclass-container{
+    background-color: var(--White);
+}
+
 .title{
     font-family: 'montserrat', sans-serif;
     font-size: 0.6em;
@@ -99,10 +107,34 @@ h1 {
 /*------------------desktop-----------*/
 
 @media (min-width: 620px){
-    .mainclass-container{
+    .secondclass-container{
         width: 600px;
         height: 450px;
         display: flex;
+    }
+
+    .imgclass-container{
+        display: none;
+    }
+
+    .imgclass2-container{
+        display: flex;
+        height: 450px;
+        border-top-right-radius: 0%;
+        border-bottom-left-radius: 5%;
+        border-top-left-radius: 5%;
+    }
+
+    .thirdclass-container{
+        border-top-right-radius: 5%;
+        border-bottom-right-radius: 5%;
+        width: 300px;
+        padding-top: 20px;
+    }
+
+    .main-button{
+        width: 240px;
+        margin-left: 30px;
     }
 
     }
