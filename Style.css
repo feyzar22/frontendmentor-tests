@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'fraunces', serif;
+    font-family: 'montserrat' sans-serif;
+    font-size: 14px;
+    background-color: var(--Cream);
+}
+
+:root{
+    --Very_dark_blue: hsl(212, 21%, 14%);
+    --Dark_grayish_blue: hsl(228, 12%, 48%);
+    --White: hsl(0, 0%, 100%);
+    --Dark_cyan: hsl(158, 36%, 37%);
+    --Cream: hsl(30, 38%, 92%);
+}
+
+.mainclass-container{
+    height: 668px;
+    width: 376px;
+    margin: auto;
+    margin-top: 122px;
+    padding: 28px 18px;
+}
+
+.secondclass-container{
+    height: 615px;
+    width: 345px;
+    background-color: var(--White);
+    border-radius: 3%;
+}
+
+.imgclass-container{
+    height: 242px;
+    width: 345px;
+    border-top-left-radius: 3%;
+    border-top-right-radius: 3%;
+}
+
+.title{
+    font-family: 'montserrat', sans-serif;
+    font-size: 0.6em;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: var(--Dark_grayish_blue);
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+h1 {
+    padding: 10px 20px;
+    font-size: 2.2em;
+    color: var(--Very_dark_blue);
+    line-height: 34px;
+}
+
+.article-description{
+    font-family: 'montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    line-height: 24px;
+    color: var(--Dark_grayish_blue);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.prices{
+    display: flex;
+    padding: 20px;
+}
+.prices-offer-price{
+    font-size: 2em;
+    color: var(--Dark_cyan);
+}
+
+.prices-normal-price{
+    color: var(--Dark_grayish_blue);
+    padding-left: 20px;
+    padding-top: 8px;
+}
+
+.main-button{
+    height: 50px;
+    width: 300px;
+    margin-left: 20px;
+    background-color: var(--Dark_cyan);
+    color: var(--White);
+    font-size: 15px;
+    font-family: 'montserrat' sans-serif;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+/*------------------desktop-----------*/
+
+@media (min-width: 620px){
+    .mainclass-container{
+        width: 600px;
+        height: 450px;
+        display: flex;
+    }
+
+    }
+}
