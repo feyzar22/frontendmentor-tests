@@ -102,11 +102,14 @@ h1 {
     font-family: 'montserrat' sans-serif;
     border: none;
     border-radius: 7px;
-    cursor: pointer;
 }
+
+/*.main-button:hover{
+    background-color: var(--Very_dark_blue);
+}*/
 /*------------------desktop-----------*/
 
-@media (min-width: 620px){
+@media (min-width: 1440px){
     .secondclass-container{
         width: 600px;
         height: 450px;
@@ -133,9 +136,42 @@ h1 {
     }
 
     .main-button{
+        margin-top: 8px;
         width: 240px;
         margin-left: 30px;
     }
 
+    .main-button:hover{
+        background-color: var(--Very_dark_blue);
+        cursor: pointer;
+    }
+
+    .title{
+        font-family: 'montserrat', sans-serif;
+        font-size: 0.6em;
+        font-weight: 700;
+        letter-spacing: 3px;
+        color: var(--Dark_grayish_blue);
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    h1 {
+        padding: 20px 20px;
+        font-size: 2.5em;
+        color: var(--Very_dark_blue);
+        line-height: 34px;
+    }
+    
+    .article-description{
+        font-family: 'montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 1.1em;
+        line-height: 24px;
+        color: var(--Dark_grayish_blue);
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 10px;
+    }
     }
 }
